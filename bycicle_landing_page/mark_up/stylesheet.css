@@ -1,0 +1,1080 @@
+.wrapper {
+
+display: flex;
+width: 35%;
+height: 100%;
+margin: 0 auto;
+justify-content: center;
+/*flex-flow: column;*/
+flex-direction: column;
+position: relative;
+border: 2px rgb(8, 191, 186) solid;
+
+
+}
+
+/*css for header part*/
+
+.header {
+
+position: relative;
+display: flex;
+width: 100%;
+margin: 0 auto;
+height: 30%;
+flex-direction: column;
+
+}
+
+
+
+.title {
+
+margin: 0 auto;
+width: 100%;
+height: 15em;
+align-items: center;
+flex-direction: row;
+background-image: url(img/bike_1.jpg);
+position: relative
+margin: 0 auto;
+background-position: center;
+background-size: 100% 100%;
+
+
+}
+
+li {
+
+list-style: none;
+display: inline-block;
+text-align: center;
+width: 20%;
+margin: 0 auto;
+align-items: center;
+
+
+
+}
+
+ul {
+
+display: table;
+width: 50%;
+position: relative;
+margin: 0 auto; ;
+padding: 0;
+justify-content: center;
+text-align: center;
+align-items:  center;
+
+}
+
+.header a {
+
+ color: rgb(47, 47, 47);
+ font-family: sans-serif;
+ text-decoration: none;
+ font-size: 0.5em;
+
+
+
+}
+
+/*.img_top {
+
+position: relative;
+width: 75.3em;
+height: 40em;
+/*padding-right: 0;*/
+/*box-sizing: border-box;
+margin: 0 auto;
+background-color: transparent;
+/*top: 5em;
+background-clip: cover;
+background-position: center;
+background-image: url(img/bike_1.jpg);
+
+}
+*/
+
+
+.img_mid {
+
+margin: 0 auto;
+width: 2em;
+height: 2em;
+position: relative;
+align-items: center;
+background-image: url(img/logo.png);
+background-position: center;
+background-size: cover;
+max-width: 100%;
+max-height: 100%;
+
+
+
+}
+
+.title_low_icon {
+
+position: relative;
+width: 0.7em;
+height: 1em;
+background-image: url(img/icon_1.png);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+align-self: center;
+top: 1.5em;
+
+
+}
+
+
+.title_low_text {
+
+margin: 0 auto;
+width: 100%;
+display: flex;
+flex-direction: column;
+text-align: center;
+background-color: rgba(177, 177, 177, 0.2);
+align-content: center;
+
+}
+
+
+
+.title_low_text .p_text {
+
+width: 100%;
+color: rgb(1, 3, 6);
+display: flex;
+font-family: sans-serif;
+margin: 0 auto;
+letter-spacing: 0.5px;
+text-align: center;
+font-size: 0.5em;
+
+}
+
+
+
+.title_low_text p {
+
+
+  font-family: sans-serif;
+  color: rgba(42, 42, 42, 0.9);
+  font-size: 0.4em;
+  width: 70%;
+  margin: 0 auto;
+/*  margin-top: 2%;*/
+/*  margin-bottom: 9%;*/
+  height: 30%;
+  line-height: 2em;
+  text-align: center;
+  margin-top: 3%;
+
+}
+
+.title_low_text h6 {
+
+font-family: sans-serif;
+font-size: 0.2em;
+margin: 0 auto;
+margin-top: 8%;
+
+
+}
+
+.text {
+
+top: 5em;
+height: 10em;
+
+}
+
+/*css for mid_part_1*/
+
+.mid_part_1 {
+
+position: relative;
+display: flex;
+width: 100%;
+height: inherit;
+flex-wrap: nowrap;
+flex-direction: row;
+justify-content: flex-end;
+
+}
+
+.left_part_mp_1 {
+
+
+width: 65%;
+height: 18em;
+display: flex;
+
+}
+
+.left_img_1 {
+
+background-image: url(img/bike_2.jpg);
+background-repeat: no-repeat;
+width: 100%;
+height: 100%;
+background-position: center;
+background-size: 100% 100%;
+
+}
+
+.mid_part_1_alpha {
+
+background-image: url(img/logo_2.png);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+position: absolute;
+width: 10%;
+height: 15%;
+top: 40%;
+right: 50%;
+left: 30%;
+
+}
+
+
+.right_part_mp_1 {
+
+display: flex;
+width: 36%;
+height: 18em;
+flex-flow: column;
+/*float: right;*/
+align-items: center;
+align-content:  center;
+justify-content: flex-end;
+
+}
+
+
+.mid_part_1_up_txt {
+
+position: relative;
+width: 80%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin-bottom: 2em;
+height: 12em;
+
+
+}
+
+.mid_part_1_up_txt_icon {
+
+  position: relative;
+  width: 0.7em;
+  height: 1em;
+  background-image: url(img/icon_1.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  align-self: center;
+  top: -1.5em;
+
+}
+
+
+.mid_part_1_up_txt p {
+
+  font-family: sans-serif;
+  color: rgba(42, 42, 42, 0.9);
+  font-size: 0.4em;
+  width: 70%;
+  margin: 0 auto;
+  /* margin-top: 2%; */
+  /* margin-bottom: 9%; */
+  height: 30%;
+  line-height: 2em;
+  text-align: center;
+  margin-top: 2em;
+  text-align: justify;
+
+
+}
+
+.mid_part_1_up_txt h4 {
+
+  font-family: sans-serif;
+  color: rgba(42, 42, 42, 0.9);
+  font-size: 0.5em;
+  width: 70%;
+  margin: 0 auto;
+  float: right;
+  text-align: center;
+  margin-bottom: 2em;
+
+}
+
+
+.right_img_1 {
+
+background-image: url(img/bike_3.jpg);
+position:relative;
+width: 100%;
+height: 35%;
+background-position: center;
+/*background-size: cover;*/
+display: flex;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+
+}
+
+
+/*css for mid_part_2*/
+
+.mid_part_2 {
+
+position: relative;
+display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+height: inherit;
+justify-content: flex-end;
+
+}
+
+.mid_part_2_up_ {
+
+display: flex;
+flex-direction: column;
+width: 33%;
+justify-content: flex-end;
+height: 18em;
+
+}
+
+.mid_part_2_up_txt {
+
+position: relative;
+width: 100%;
+height: inherit;
+display: flex;
+flex-flow: column;
+justify-content: center;
+margin: 0 auto;
+}
+
+.mid_part_2_up_txt h4 {
+
+  font-family: sans-serif;
+  font-size: 0.5em;
+  margin: 0 auto;
+  margin-top: 2em;
+
+
+}
+
+.mid_part_2_up_txt p {
+
+  font-family: sans-serif;
+  color: rgba(42, 42, 42, 0.9);
+  font-size: 0.4em;
+  width: 70%;
+  margin: 0 auto;
+  /* margin-top: 2%; */
+  /* margin-bottom: 9%; */
+  height: 30%;
+  line-height: 2em;
+  text-align: center;
+  margin-top: 2em;
+  text-align: justify;
+
+}
+
+.mid_part_2_up_txt_icon {
+
+  position: relative;
+  width: 0.7em;
+  height: 1.1em;
+  background-image: url(img/icon_1.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  align-self: center;
+  top: -0.5em;
+
+}
+
+.text_img_2 {
+
+width: 100%;
+margin: 0 auto;
+align-content: center;
+position: absolute;
+align-self: center;
+
+}
+
+
+
+.left_img_2 {
+
+background-image: url(img/bike_5.jpg);
+position: relative;
+width: 100%;
+height: 5em;
+background-size: 100% 100%;
+
+}
+
+
+
+.mid_part_2_right_img_ {
+
+display: flex;
+width: 68%;
+height: 18em;
+
+}
+
+.mid_part_2_right_img_2 {
+
+background-image: url(img/bike_4.jpg);
+background-size: 100% 100%;
+background-position: center;
+background-clip: cover;
+width: 100%;
+height: 100%;
+
+}
+
+.img_part_5_left_high_up_img_2 {
+
+  background-image: url(img/bike_9.jpg);
+  background-size: 100% 100%;
+  background-position: center;
+  background-clip: cover;
+  width: 100%;
+  height: 100%;
+
+}
+
+.alpha_img {
+
+  background-image: url(img/logo_2.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  position: absolute;
+  width: 10%;
+  height: 15%;
+  top: 38%;
+  right: 10%;
+  left: 60%;
+
+}
+
+
+/*css for mid_part_3*/
+
+.mid_part_3 {
+
+position: relative;
+height: inherit;
+width: 100%;
+display: flex;
+align-items: stretch;
+flex-direction: row;
+flex-wrap: nowrap;
+
+
+}
+
+.left_part_mid_part_3 {
+
+display: flex;
+width: 33%;
+height: 18em;
+flex-wrap: wrap;
+
+}
+
+
+.left_img_3 {
+
+position: relative;
+background-image: url(img/bike_7.jpg);
+width: 100%;
+height: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+align-content: center;
+align-self: center;
+
+
+
+
+}
+
+.left_img_alpha {
+
+background-image: url(img/logo_3.png);
+position: absolute;
+background-position: center;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+width: 5em;
+height: 15%;
+top: 38%;
+left: 10%
+
+}
+
+.mid_part_3_txt {
+
+display: flex;
+width: 34%;
+flex-flow: column;
+position: relative;
+height: 18em;
+
+}
+
+.mid_part_3_high_text {
+
+  position: relative;
+width: 100%;
+height: inherit;
+display: flex;
+flex-flow: column;
+justify-content: center;
+margin: 0 auto;
+
+
+}
+
+.logo_mid_part_3_txt {
+
+position: relative;
+    width: 0.7em;
+    height: 1em;
+    background-image: url(img/icon_1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    align-self: center;
+    top: -1em;
+
+
+}
+
+.mid_part_3_high_text p {
+
+  font-family: sans-serif;
+  color: rgba(42, 42, 42, 0.9);
+  font-size: 0.4em;
+  width: 70%;
+  margin: 0 auto;
+  /* margin-top: 2%; */
+  /* margin-bottom: 9%; */
+  height: 30%;
+  line-height: 2em;
+  text-align: center;
+  margin-top: 2em;
+  text-align: justify;
+}
+
+
+.mid_part_3_high_text h4 {
+
+  font-family: sans-serif;
+    font-size: 0.5em;
+    margin: 0 auto;
+    margin-top: 2em;
+
+
+
+}
+
+
+.mid_part_3_img {
+
+background-image: url(img/bike_8.jpg);
+width: 100%;
+height: 6em;
+background-position: center;
+background-repeat: no-repeat;
+background-size: 100% 100%;
+background-clip: cover;
+position: relative;
+
+}
+
+.right_part_3_img {
+
+position: relative;
+background-image: url(img/bike_6.jpg);
+background-position: center;
+background-size: 100% 100%;
+width: 33%;
+height: 18em;
+
+
+
+}
+
+/*css for mid part_4*/
+
+.mid_part_4 {
+
+display: flex;
+flex-flow: column;
+height: 16em;
+justify-content: center;
+
+}
+
+.mid_part_4_txt {
+
+text-align: center;
+width: 80%;
+height: 80%;
+align-self: center;
+margin: 0 auto;
+
+}
+
+.mid_part_4_txt p {
+
+font-family: cursive;
+color: rgba(89, 89, 89, 0.74);
+font-size: 0.9em;
+/*letter-spacing: 0.1em;*/
+margin: 0 auto;
+margin-bottom: 5em;
+
+
+}
+
+.mid_part_4_txt h5 {
+
+font-family: sans-serif;
+
+}
+
+
+.twitter_img {
+
+background-image: url(img/Twitter_logo_blue.png);
+position: relative;
+width: 1em;
+height: 1em;
+margin: 0 auto;
+background-size: contain;
+background-repeat: no-repeat;
+margin-top: 2em;
+top: 1em;
+
+}
+
+.text_part {
+
+color: rgba(48, 48, 48, 0.62);
+font-size: 10px;
+
+}
+
+/*css for mid_part_5*/
+
+.mid_part_5 {
+
+position: relative;
+display: flex;
+flex-flow: column;
+
+
+}
+
+.mid_part_5_high  {
+
+width: 100%;
+height: 14em;
+align-items: stretch;
+display: flex;
+flex-direction: row;
+
+}
+
+
+.mid_part_5_left {
+
+align-items: stretch;
+width: 33%;
+height: inherit;
+display: flex;
+flex-flow: column;
+
+}
+
+.mid_part_5_left_high {
+
+width: 100%;
+height: 7em;
+display: flex;
+flex-flow: row;
+align-items: stretch;
+
+
+
+}
+
+.mid_part_5_left_high_up_img_1 {
+
+background-image: url(img/bike_11.jpg);
+position: relative;
+width: 50%;
+height: 100%;
+padding: 0;
+background-size: 100% 100%;
+
+}
+
+.mid_part_5_left_high_up_img_2 {
+
+background-image: url(img/bike_9.jpg);
+position: relative;
+width: 50%;
+height: 100%;
+padding: 0;
+background-size: contain;
+
+}
+
+
+.mid_part_5_left_low_img_1 {
+
+  background-image: url(img/bike_11.jpg);
+  position: relative;
+  width: 100%;
+  height: 50%;
+  padding: 0;
+  background-size: 100% 100%;
+
+  }
+
+
+
+.mid_part_5_mid {
+
+width: 33%;
+display: flex;
+flex-direction: row;
+
+}
+
+.mid_part_5_mid_left_img_1 {
+
+
+background-image: url(img/bike_12.jpg);
+background-repeat: no-repeat;
+width: 50%;
+position: relative;
+background-size: 100% 100%;
+
+}
+
+
+.mid_part_5_mid_right_img_2 {
+
+  background-image: url(img/bike_13.jpg);
+  background-repeat: no-repeat;
+  width: 50%;
+  position: relative;
+  background-size: 100% 100%;
+
+}
+
+
+.mid_part_5_right {
+
+  align-items: stretch;
+  width: 34%;
+  height: inherit;
+  display: flex;
+  flex-flow: column;
+
+}
+
+.mid_part_5_right_right_up_img {
+
+width: 100%;
+height: 50%;
+background-image: url(img/bike_16.jpg);
+background-repeat: no-repeat;
+background-size: 100% 100%;
+
+}
+
+.mid_part_5_right_low {
+
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 50%;
+  align-self: center;
+
+}
+
+.mid_part_5_right_right_low_img_1 {
+
+  background-image: url(img/bike_14.jpg);
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 100%;
+  position: relative;
+  background-size: 100% 100%;
+
+}
+
+.mid_part_5_right_right_low_img_2 {
+
+  background-image: url(img/bike_15.jpg);
+  background-repeat: no-repeat;
+  width: 50%;
+  height: 100%;
+  position: relative;
+  background-size: 100% 100%;
+
+
+}
+
+.mid_part_5_low {
+
+display: flex;
+width: 100%;
+height: 6em;
+background-color: rgba(3, 8, 22, 0.9);
+justify-content: center;
+
+
+}
+
+.button1 {
+
+margin-top: 1.9em;
+width: 10em;
+height: 3em;
+border: 1px solid rgba(211, 215, 195, 0.5);
+border-image: linear-gradient(to bottom, rgb(205, 212, 179), rgb(136, 148, 127), 100%);
+cursor: pointer;
+background-color: rgba(255, 255, 255, 0);
+transition-duration: 1s;
+
+}
+
+.mid_part_5_low h5 {
+
+margin: 0 auto;
+color: rgba(217, 217, 196, 0.97);
+font-family: sans-serif;
+letter-spacing: 0.12em;
+font-size: 0.5em;
+text-shadow: -1px -1px rgb(89, 85, 86);
+text-align: center;
+
+}
+
+
+/*css for footer_*/
+
+.footer_ {
+
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+
+.footer_high {
+
+display: flex;
+width: 100%;
+height: 14em;
+flex-direction: column;
+justify-content: center;
+
+}
+
+.footer_buttons {
+
+
+margin: 0 auto;
+align-self: center;
+width: 100%;
+height: 4em;
+margin-top: 1em;
+bottom: 1em;
+display: flex;
+
+/*margin-left: 60%;*/
+
+}
+
+input  {
+
+height: 2.2em;
+border: 0.5px solid rgb(113, 191, 128, 0.5);
+display: flex;
+width: 35%;
+margin-left: 20%;
+
+}
+
+input[type="submit"] {
+
+background-color: rgb(73, 147, 96);
+border: none;
+height: 2.7em;
+width: 20%;
+color: rgba(210, 210, 210, 1);
+display: flex;
+margin: 0 auto;
+margin-left: 0;
+
+}
+
+input[value="enter your email.."] {
+
+font-family: sans-serif;
+font-style: italic;
+color: rgba(135, 135, 135, 0.62);
+position: relative;
+
+
+}
+
+.footer_high_img {
+
+background-image: url(img/logo.png);
+width: 3em;
+height: 3em;
+background-size: 100% 100%;
+align-self: center;
+
+}
+
+.footer_high p {
+
+font-size: 0.7em;
+text-align: center;
+font-family: sans-serif;
+font-style: italic;
+
+}
+
+.footer_low {
+
+background-color: rgba(135, 135, 135, 0.19);
+display: flex;
+flex-direction: row;
+justify-content: center;
+height: 8em;
+
+}
+
+.footer_low_left_txt{
+
+  display: flex;
+  flex-direction: column;
+  width: 38%;
+  justify-content: center;
+
+}
+
+.footer_low_left_txt h6 {
+
+color: rgba(61, 61, 61, 0.89);
+font-family: sans-serif;
+font-size: 0.5em;
+margin-top: 0;
+margin-bottom: 0;
+
+
+}
+
+.footer_low_left_txt p {
+
+font-size: 0.5em;
+font-family: sans-serif;
+color: rgb(32, 32, 32);
+margin-top: 0;
+margin-bottom: 0;
+
+}
+
+
+.footer_low_mid_part {
+
+display: flex;
+flex-direction: row;
+width: 12%;
+justify-content: center;
+
+}
+
+.icons {
+
+display: flex;
+flex-direction: row;
+margin-top: 4em;
+margin-bottom: 4em;
+justify-content: center;
+
+}
+
+.footer_low_part_right {
+
+  display: flex;
+  flex-direction: row;
+  width: 38%;
+  justify-content: center;
+
+}
+
+.twitter_icon {
+
+background-image: url(img/Twitter_logo_blue.png);
+width: 1em;
+height: 1em;
+background-size: 100% 100%;
+
+}
+
+.facebook_icon {
+
+background-image: url(img/facebook_circle.png);
+width: 1em;
+height: 1em;
+background-size: 100% 100%;
+
+}
+
+.pint_icon {
+
+  background-image: url(img/pinterest.png);
+  width: 1em;
+  height: 1em;
+  background-size: 100% 100%;
+
+}
+
+.footer_low_part_right p {
+
+  font-size: 0.5em;
+  font-family: sans-serif;
+  color: rgba(89, 89, 89, 0.86);
+  font-style: italic;
+  text-align: center;
+  margin-top: 8.5em;
+
+
+}

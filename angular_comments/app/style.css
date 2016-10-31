@@ -1,0 +1,51 @@
+
+    #mydiv {
+
+        border: 1px solid;
+        margin-left:auto;
+        margin-right:auto;
+        width:550px;
+        border-radius:7px;
+        padding: 25px;
+      }
+
+           div {
+
+             width: 200px;
+
+           }
+
+           h2 {
+
+              font: 100px;
+              margin: 0;
+              padding: 0;
+
+             }
+
+           ul {
+
+             list-style-type: none;
+             margin: 10px;
+             padding: 10px;
+
+            }
+
+           li {
+
+             font:20px Helvetica,
+             border-bottom: 1px solid;
+             }
+
+           li:last-child {
+
+             border: none;
+           }
+
+           li a {
+
+             text-decoration: none;
+             color: black;
+             display: block;
+
+           }

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" ng-app = "MyApp">
+<head>
+  <base href="/" />
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link  href="https://s3.amazonaws.com/codecademy-content/projects/bootstrap.min.css" rel="stylesheet">
+  <!--<script src = "https://ajax.googleapis.com/ajax/libs/angularjs/1.5.8/angular.min.js"></script>-->
+  <script src = "lib\angular.js"></script>
+  <script src = "lib\angular-animate.js"></script>
+  <script src = "lib\angular-route.js"></script>
+  <link rel="stylesheet" href="css\style.css">
+</head>
+<body>
+  <header ng-include = "'header.html'"></header>
+  <main ng-view></main>
+
+  <!--  <h2 id  = "title">My Title</h2>
+
+   <header ng-include = "'header.html'"></header>
+  <div class = "content">
+    <p>Hello server</p>
+  <input type="text" name="name" ng-model = "favMeat" placeholder = "enter your favourite meat" />
+  <p>Your favourite meat is: {{favMeat}}</p>
+  <p>{{numbers[0] + numbers[2]}}</p>
+  <p ng-init="meats = ['pork','beef','ham']">Do you like {{meats[1]}} ?</p>
+  <p ng-init = "ninjas = ['yoshi','crystal','goti','shaun']"></p>
+  <ul>
+     <li ng-repeat = "nin in ninjas">{{nin}}</li>
+  </ul>
+  <p>boo</p>
+  <h1>Boo</h1>
+  </div>
+
+    <div class="main" ng-controller = "MainController">
+      <p>{{message}}</p>
+      <ul ng-repeat = 'nina in ninjas1'>
+           <li>{{nina}}</li>
+      </ul>
+
+      <p>*******************</p>
+
+
+      <input type="text" ng-model = "search" />
+      <ul ng-repeat = "nina in ninjas2 | orderBy: 'name' | filter:search">
+          <li>{{nina.name}} - {{nina.rate | currency: '$'}}</li>
+      </ul>
+    </div>
+  <div class="footer"></div>
+-->
+   <script src = "app.js"></script>
+   <script src = "js\controllers\MainController.js" ></script>
+   <script src = "js\config\Provider.js"></script>
+   <script src = "js\directive\RandomNinja.js"></script>
+   <script src = "js\controllers\contactController.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" ng-app = "txtcomment">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <script type = "text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+  <script type = "text/javascript" src="main.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id='mydiv'>
+                <div ng-controller="mainCtrl">
+                    <textarea ng-model = 'txtcomment' placeholder="Your Comment" style='width:550px'></textarea>
+                    <button ng-click = 'btn_add()' style='margin-top:10px;'>Post Comment</button>
+                    <button ng-click='btn_remove()' style='margin-top:10px;'>Delete Comment</button>
+
+                    <h4>Comments</h4>
+                    <ul>
+                        <li ng-repeat = "comnt in comments"> {{comnt}} </a></li>
+                   </ul>
+              </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,181 @@
+.wrapper-main {
+
+  background: rgb(116, 114, 112);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 42%;
+  margin-top: 1%;
+
+
+}
+
+.wrapper-main__inner-part {
+
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+width: 80%;
+height: 90%;
+background: rgb(255, 255, 255);
+align-items: center;
+margin-top: 5%;
+margin-bottom: 5%;
+
+
+}
+
+.wrapper__head {
+
+  background: ;
+  height: 12em;
+  width: 95%;
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+  margin-bottom: 0.5em;
+  margin-top: 0.5em;
+}
+
+.wrapper__head__title {
+
+margin-top: 0;
+font-family: sans-serif;
+font-weight: 900;
+font-size: 2em;
+line-height: 50%;
+
+
+}
+
+.wrapper__main_part {
+
+  display: flex;
+  flex-flow: row;
+  margin-top:;
+  margin-bottom: ;
+  background: rgb(175, 187, 187);
+  height: inherit;
+  width: 95%;
+  justify-content: space-around;
+  margin-bottom: 2%;
+
+}
+
+.wrapper__main_part__right_side {
+
+  width: 20%;
+  padding: 0.5em;
+  background: rgb(102, 102, 102);
+  /*font-size: 1em;*/
+  flex-grow: 1;
+
+}
+
+.wrapper__main_part__left_side {
+
+  width: 80%;
+  height: inherit
+  padding: 0.5em;
+  background: ;
+  flex-grow: 1;
+
+}
+
+/*
+.wrapper__main_part__right_side_down_block {
+
+padding-bottom: 5em;
+padding-top: 5em;
+
+}
+*/
+
+.wrapper__head_img {
+
+background-image: url(cup.png);
+width: 55%;
+height: 100%;
+background-size: 100% 100%;
+align-self: flex-end;
+align-content: flex-end;
+
+}
+
+.wrapper__main_part__left_side > p {
+
+padding: 1em;
+margin-top: -5%;
+font-family: Arial, sans-serif;
+
+}
+
+.wrapper__main_part__left_side > h3 {
+
+padding: 1em;
+margin: 0;
+font-family: Arial, sans-serif;
+
+}
+
+.wrapper__main_part__right_side_up_block {
+
+display: flex;
+flex-direction: column;
+margin-left: 20%;
+margin-top: 20%;
+
+}
+
+
+.wrapper__main_part__right_side_up_block > a {
+
+text-decoration: none;
+font-family: Arial, sans-serif;
+color: rgb(194, 194, 194);
+font-size: 0.7em;
+line-height: 300%;
+
+}
+
+
+.wrapper__main_part__right_side_down_block {
+
+display: flex;
+flex-direction: column;
+
+}
+
+@font-face {
+
+  font-family: 'my_font';
+  src: url('Arial_V15.woff2') format ('woff2');
+
+}
+
+.myFont {
+
+font-family: 'my_font', sans-serif;
+color: rgb(194, 194, 194);
+
+}
+
+/*
+.wrapper__main_part__right_side_down_block > h4 {
+
+
+font-family: Arctik 1, sans-serif;
+color: rgb(194, 194, 194);
+font-size: 1em;
+
+}
+*/
+.wrapper__main_part__right_side_down_block > a {
+
+text-decoration: underline;
+font-family: Arial, sans-serif;
+color: rgb(194, 194, 194);
+font-size: 0.7em;
+line-height: 300%;
+}
